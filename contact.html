@@ -1,0 +1,233 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" type="image/x-icon" href="asset/favicon.ico">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet"
+        href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+    <link rel="stylesheet"
+        href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="cart/cart.css">
+    <title>Cara</title>
+</head>
+
+<body>
+    <header class="header">
+        <a href="index.html"> <img src="asset/logo.png" alt="" class="logo"> </a>
+
+
+        <div>
+            <ul class="navbar">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="shop.html">Shop</a></li>
+                <li><a href="blog.html">Blog</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="contact.html"  class="active">Contact</a></li>
+                <li><a href="#" id="cart-icon"><span class="material-symbols-outlined">
+                            shopping_bag
+                        </span></a></li>
+            </ul>
+        </div>
+    </header>
+
+    <div id="sliding-cart" class="sliding-cart">
+        <h2>Your Cart</h2>
+        <button id="close-cart">&times;</button>
+        <table id="cart-table">
+            <thead>
+                <tr>
+                    <th>Remove</th>
+                    <th>Image</th>
+                    <th>Product Name</th>
+                    <th>Quantity</th>
+                </tr>
+            </thead>
+            <tbody>
+                <!-- Cart items will be added here -->
+                <tr>
+                    <td><button class="remove-btn">Remove</button></td>
+                    <td><img src="asset/p1.png" alt="Product Image" width="50"></td>
+                    <td>Product 1</td>
+                    <td><input type="number" value="1" min="1"></td>
+                </tr>
+                <tr>
+                    <td><button class="remove-btn">Remove</button></td>
+                    <td><img src="asset/p2.png" alt="Product Image" width="50"></td>
+                    <td>Product 2</td>
+                    <td><input type="number" value="1" min="1"></td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+
+    <section>
+        <div class="contact-banner">
+            <img src="asset/aboutb1.png" alt="">
+            <div class="contact-content">
+                <h1>#let's_talk</h1>
+                <p>LEAVE A MESSAGE, We love to Hear From You!</p>
+            </div>
+        </div>
+    </section>
+
+    <section>
+        <div class="address">
+            <h3>Get in Touch</h3>
+            <h1>Visit one of our agency locations <br>or contact us on today</h1>
+            <h2>Head Office</h2>
+        </div>
+        <div class="address-map">
+            <div class="address-details">
+                <i class="fa fa-map"><a href="https://maps.app.goo.gl/198AWFgf8ihGWEGHA" style="text-decoration:none; color: inherit;"> 48Dr.Nandlal Street, Doraha, Punjab</i></a>
+                <i class="fa fa-envelope"> <a href="mailto:jagjotsingh2287@gmail.com" style="text-decoration: none; color: inherit;"> jagjotsingh2287@gmail.com </a></i>
+                <i class="fa fa-phone"><a href="tel:+917508045650" style="text-decoration: none; color: inherit;"> (+91)75080-45650</a><a href="tel:+911628505443" style="text-decoration: none; color: inherit;">/(+91)162-850-5443 </a> </i>
+                <i class="fa fa-clock-o"> 10:00am - 8:00pm . Mon - Sat</i>
+            </div>
+
+            <div class="map">
+                <iframe
+                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3427.4477433953884!2d76.0466575753754!3d30.790075774556676!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3910748f95f63081%3A0x8f01b16551cb1cc5!2sDr%20Nand%20Lal%20St%2C%20Punjab%20141421!5e0!3m2!1sen!2sin!4v1721740519297!5m2!1sen!2sin"
+                    width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"
+                    referrerpolicy="no-referrer-when-downgrade"></iframe>
+            </div>
+        </div>
+    </section>
+
+    <section class="myContact-form">
+        <div class="myContact">
+        <div class="contact-form">
+            <form action="https://formspree.io/f/mqazkogr" method="post">
+                <p>Leave a Message</p>
+                <h1>We Love to hear from you</h1>
+                <input type="text" name="" id="" placeholder=" Your Name">
+                <input type="email" name="" id="" placeholder=" E-mail">
+                <input type="text" name="" id="" placeholder=" Subject">
+                <textarea name="comment" id="" cols="76" rows="8" placeholder=" Your Message"></textarea>
+                <button class="contact-btn">Submit</button>
+            </form>
+            <div class="contact-people">
+                <div class="contact-people1">
+                    <img src="asset/c1.png" alt="">
+                    <div class="people1">
+                    <h2>John Doe</h2>
+                    <p>Senior Marketing Manager</p>
+                    <p>Phone : (+91)7508045650</p>
+                    <p>Email : jagjotsingh2287@gmail.com</p>
+                </div>
+                </div>
+                <div class="contact-people1">
+                    <img src="asset/c2.png" alt="">
+                    <div class="people2">
+                    <h2>Nico Williams</h2>
+                    <p>Senior Marketing Manager</p>
+                    <p>Phone : (+91)7508045650</p>
+                    <p>Email : jagjotsingh2287@gmail.com</p>
+                </div>
+                </div>
+                <div class="contact-people1">
+                    <img src="asset/c3.png" alt="">
+                    <div class="people3">
+                    <h2>Daisy stone</h2>
+                    <p>Senior Marketing Manager</p>
+                    <p>Phone : (+91)7508045650</p>
+                    <p>Email : jagjotsingh2287@gmail.com</p>
+                </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    </section>
+
+    
+  
+    
+    <section> 
+        <div class="notification">
+            
+                <h1>Sign Up for New Products Notifications</h1>
+                <p>Get E-mail updates about our <span>latest products</span> and <span>special offers.</span></p>
+                <form action="https://formspree.io/f/mqazkogr" method="post">
+                    <input type="text" name="" id="" placeholder="Your email address">
+                    <button class="sign-up-btn">Sign Up</button>
+                </form>
+            
+        </div>
+    </section>
+
+    <section>
+        <div class="real-end">
+            <div class="left">
+                <img src="asset/logo.png" alt="">
+                <h3>Contact</h3>
+               <p class="margin">Address: <a href="https://maps.app.goo.gl/198AWFgf8ihGWEGHA" style="text-decoration: none;"><span>48 Dr.Nandlal Street, Doraha, Punjab</span></a> </p>
+                <p>Phone: <a href="tel:+917508045650" style="text-decoration: none; color: inherit;"> (+91)75080-45650 </a><a href="tel:+911628505443" style="text-decoration: none; color: inherit;"> /(+91)162-850-5443 </a></p>
+                <p>Hours: <span>10:00 am - 8:00 pm . Mon - Sat</span></p>
+
+                <div class="social-contact">
+                    <p>Follow Us</p>
+                    <a href="https://wa.link/562kv6" target="_parent" class="fa fa-whatsapp"></a>
+                    <a href="https://www.instagram.com/jot_2287/" target="_parent" class="fa fa-instagram"></a>
+                    <a href="https://github.com/jagjotsingh7935" target="_parent" class="fa fa-github"></a>
+                    <a href="https://www.linkedin.com/in/jagjot-singh-5799ba224?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app"
+                        target="_parent" class="fa fa-linkedin"></a>
+                </div>
+            </div>
+            <div class="centre-left">
+                <h3>About</h3>
+
+               <a href="#" style="text-decoration: none;"> <p>About us</p></a>
+               <a href="#" style="text-decoration: none;"> <p>Delivery Information</p></a>
+               <a href="#" style="text-decoration: none;"> <p>Privacy Policy</p> </a>
+               <a href="#" style="text-decoration: none;"> <p>Terms & Conditions</p> </a>
+               <a href="#" style="text-decoration: none;"> <p>Contact Us</p> </a>
+
+            </div>
+            <div class="centre-right">
+                <h3>My Account</h3>
+
+              <a href="#" style="text-decoration: none;">  <p>Sign In</p> </a>
+               <a href="#" style="text-decoration: none;"> <p>View Cart</p></a>
+               <a href="#" style="text-decoration: none;"> <p>My Wishlist</p></a>
+               <a href="#" style="text-decoration: none;"> <p>Track My Order</p></a>
+               <a href="#" style="text-decoration: none;"> <p>Help</p></a>
+
+            </div>
+
+            <div class="right">
+                <h3>Install App</h3>
+                <p class="margin">From App Store or Google Play</p>
+                <div class="download">
+                    <div class="app-store">
+                      <a href="#" >  <img src="asset/app.png" alt=""> </a>
+                    </div>
+               
+                    <div class="google-play">
+                      <a href="#"> <img src="asset/play.png" alt=""> </a>
+                    </div>
+                </div>
+                <div class="gateway">
+                    <p>Secured Payment Gateways</p>
+                    <img src="asset/pay.png" alt="">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- footer -->
+
+    <footer class="copyright">
+        &#169; 2024 Jagjot Singh | All Rights Reserved
+    </footer>
+
+
+    <script src="index.js"></script>
+    <script src="cart/cart.js"></script>
+    
+</body>
+
+</html>
